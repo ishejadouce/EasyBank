@@ -6,6 +6,7 @@
 
 body{
     font-family: 'public sans', sans-serif;
+    width: 100%;
 }
 
 .navbar{
@@ -92,10 +93,10 @@ p{
 
 .right-box{
     width: 50%;
-    background-image: url(./imgs/bg.svg);
+    background-image: url(./imgs/bg-intro-mobile.svg);
     background-size: 100%;
-    background-position-x: top;
-    background-position: 50px;
+    background-position-x: right;
+    background-position: 100px;
     background-repeat: no-repeat;
     margin-left: 16%;
     margin-right: 0;
@@ -118,23 +119,120 @@ p{
     color: #313138;
     font-weight: 300;
     line-height: 1.3;
-    margin: 0;
-    margin-bottom: 0.5em;
+    padding-top: 50px;
     margin-left: 91px;
 }
 
 .card-box p{
-    margin-bottom: 4em;
+    margin-bottom: 3em;
     font-size: 1em;
     line-height: 1.7;
     margin-left: 91px;
 }
 
 .cards{
+    width: 100%;
     display: flex;
-    margin: auto;
-    margin-left: 4.5%;
-    margin-right: 5%;
+}
+
+.card-1{
+    margin-bottom: 2em;
+}
+
+.card-1 img{
+    margin-left: 80px;
+}
+
+.card-1 h2{
+    margin-left: 90px;
+    color: #313138;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+}
+
+.card-1 p{
+    display: block;
+    font-size: 1em;
+}
+
+.card-2{
+    margin-bottom: 2em;
+    
+    
+}
+
+.card-2 img{
+    margin-left: 80px;
+}
+
+.card-2 h2{
+    margin-left: 90px;
+    margin-left: 90px;
+    color: #313138;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+}
+
+.card-2 p{
+    display: block;
+    font-size: 1em;
+}
+
+.card-3{
+ 
+    margin-bottom: 2em;
+    
+}
+
+.card-3 img{
+    margin-left: 80px;
+}
+
+.card-3 h2{
+    margin-left: 90px;
+    margin-left: 90px;
+    color: #313138;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+}
+
+.card-3 p{
+    display: block;
+}
+
+.card-4{
+ 
+    margin-bottom: 2em;
+    margin-right: 7%;
+    
+}
+
+.card-4 img{
+    margin-left: 80px;
+}
+
+.card-4 h2{
+    margin-left: 90px;
+    margin-left: 90px;
+    color: #313138;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+}
+
+.card-4 p{
+    display: block;
+}
+
+.card-container{
+    background-color: #fafafa;
 }
 
 .card-container h1{
@@ -142,95 +240,171 @@ p{
     color: #313138;
     font-weight: 300;
     line-height: 1.3;
-    margin: 0;
-    margin-bottom: 0.5em;
     margin-left: 91px;
+    padding-top: 40px;
 }
 
 .card{
     display: flex;
     width:100%;
-    
+    margin-top: 40px;
     
 }
 
+h4{
+    padding: 5px 0px;
+    font-size: 11px;
+    color: #ccccce;
+    margin-left: 3%;
+}
+
+h3{
+    color: #313138;
+    font-weight: 300;
+    line-height: 1.3;
+    margin: 0;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+    margin-left: 3%;
+}
+
+ .card p{
+    margin-left: 3%;
+    font-size: .9em;
+    line-height: 1.7;
+ }
+
+.card img{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+ 
+}
+
 .card1{
-    width: 20%;
-    margin-left: 2%;
+    width: 20%;   
     margin-left: 91px;
+    background-color: #fff;
 }
 
 .card1 img{
     width: 100%;
+    height: 200px;
 }
 
 .card2{
     width: 20%;
-    margin-left: 2%;
-    margin-left: 91px;
+    margin-left: 30px;
+    background-color: #fff;
 }
 
 .card2 img{
     width: 100%;
+    height: 200px;
 }
 
 .card3{
     width: 20%;
-    margin-left: 2%;
-    margin-left: 91px;
+    margin-left: 30px;
+    background-color: #fff;
 }
 
 .card3 img{
     width: 100%;
+    height: 200px;
 }
 
 .card4{
     width: 20%;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-left: 91px;
+    margin-right: 94x;
+    margin-left: 30px;
+    background-color: #fff;
 }
 
 .card4 img{
     width: 100%;
+    height: 200px;
 }
 
 footer{
     background-color: #2d314e;
+    margin-top: 100px;
 }
 
 .foot{
     display: flex;
     width: 100%;
-    padding-top: 3%;
+    /* padding-top: 3%; */
 }
 
 .left{
     width: 25%;
-    margin-left: 6%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 1%;
+    margin-top: 10px;
+}
+
+.left .flogo{
+    width: 130px;
+    margin-top: 10px;
+    
+}
+
+
+.icons{
+    margin-left: 2%;
+    margin-top: 40px;
 }
 
 .middle{
-    margin-right: 5%;
+    margin-right: 10%;
+    display: flex;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.li1 li{
+    display: block;
+    line-height: 3em;
+    color: white;
+}
+
+.li2 li{
+    display: block;
+    line-height: 3em;
+    margin-left: 40px;
+    color: white;
 }
 
 .right{
-    margin-left: 6%;
+    margin-left: 12%;
+    /* margin-right: 10%; */
+    
 }
 
 .right button{
-    margin-top: 1%;
-    margin-bottom: 30px;
-}
+    margin-bottom: 50px;
+    height: 50px;
+    margin-top: 22px;
+    background-image: linear-gradient(to right, #33cf70 , #2fb9c4);
+    border-radius: 25px;
+    padding: 0.9em 3em;
+    margin-left: 13%;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+
+    }
 
 .right p{
     padding-bottom: 50px;
+    font-size: 12px;
 }
 
 .main-container{
-    margin-bottom: 5%;
+    margin-bottom: 1em;
 }
+
 
 
 ,
